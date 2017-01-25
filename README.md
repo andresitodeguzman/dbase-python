@@ -1,5 +1,5 @@
 # DBase for Python
-Python port of DBase. Interact with your DBase databse in python. This is still in development so expect a lot of bugs and do not use in production. This not yet stable, use the DBase for PHP instead, visit http://andre.is-great.net/dbase.
+Python port of DBase. Interact with your DBase databse in python. This is still in development so expect a lot of bugs and do not use in production. This is not yet stable, use the DBase for PHP instead and make an API if you really need to use python, for info, visit http://andre.is-great.net/dbase.
 
 ## Initialize DBase and the Database
 ```python
@@ -7,7 +7,7 @@ Python port of DBase. Interact with your DBase databse in python. This is still 
 >>> import DBase
 
 # Initialize
->>> db_sample = db("db_location/db_name")
+>>> db_sample = DBase.db("db_location/db_name")
 ```
 
 ## Operations
